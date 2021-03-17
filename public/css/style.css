@@ -1,0 +1,165 @@
+#rectangle-9 {
+	width: 100%;
+	height: 11vw;
+	opacity: 100%;
+	background: #C5E7FF;
+	border-color: #ffffff;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+}
+
+#sidenav {
+  height: 100%; /* 100% Full-height */
+	width: 5%;
+  position:fixed;
+  top: 21.5%; /* Stay at the top */
+  left: 0.5%;
+  background: #C5E7FF;
+	opacity: 100% ;
+  overflow-x: hidden; /* Disable horizontal scroll */
+	border-color: #ffffff;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.logo{
+width:10%;
+z-index: 4;
+position:fixed;
+top:0;
+left:0;
+}
+#main {
+  padding: 20px;
+	margin-left: 4%;
+}
+.stats {
+  	position: relative;
+	  top: 1vw;
+	  left: 50vw;
+	  display: inline-block;
+		opacity: 50%;
+		margin-left: 1vw;
+		border-color: #7a7a7a;
+		border-width: 1px;
+		border-style: solid;
+		border-radius: 5px 5px 5px 5px;
+}
+.stats h2{
+	font-size: 1.7vw;
+	line-height: 1.3px;
+	text-align: center;
+}
+.stats p{
+	color: #049cdb;
+	width: 19vw;
+	opacity: 80%;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 5.7vw;
+	line-height: 0%;
+	text-align: center;
+}
+
+h3 {
+	color: #606060;
+	font-family: "Lato";
+	font-weight: bold; }
+
+	tr:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+	table {
+  border-collapse: collapse;
+  width: 100%;
+	border-color: #f2f2f2;
+	border-width: 1px;
+	border-style: solid;
+	color: #606060;
+	font-family: "Lato";
+	font-weight: bold;
+}
+td {
+	
+  padding: 2%;
+}
+ .names {
+	color: #606060;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 21px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.button {
+	width: 9.8vw;
+	height: 2.5vw;
+	padding: 0px 10px 0px 10px;
+	background: #C5E7FF;
+	color: #606060;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px 5px 5px 5px;
+	font-family: "Source Sans Pro";
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.LogIn{
+text-align: center;
+border-width: 2px;
+border-style: solid;
+border-radius: 5px;
+width: 25%;
+height: 40%;
+padding: 2%;
+margin-top:5%;
+margin-left: 34%;
+border-color: #C5E7FF;
+}
+.LogInButton{
+	background: #C5E7FF;
+	color: #606060;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px 5px 5px 5px;
+	width: 50%;
+	padding:10px;
+
+}
+.rcorners2 {
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	width: 80%;
+	padding: 2%;
+	margin-top:-3%;
+	margin-left: 8%;
+}
+.EditAdmin{
+	margin-left: 10%;
+}
+.AdminButtons{
+width: 9.8vw;
+height: 2.5vw;
+padding: 0px 10px 0px 10px;
+background: #C5E7FF;
+color: #606060;
+border-width: 1px;
+border-style: solid;
+border-radius: 5px 5px 5px 5px;
+font-family: "Source Sans Pro";
+font-weight: bold;
+font-size: 16px;
+letter-spacing: 1px;
+}
+
+ul {
+list-style-type: none;
+margin-left: -55%;
+}

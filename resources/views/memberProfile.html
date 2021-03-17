@@ -1,0 +1,102 @@
+<!DOCtype html>
+ <html>
+  <head>
+    <title> member's profile </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+     <header id="rectangle-9">
+     <div>
+     <img class="logo" src="logo.PNG" alt="logo" style="width:10%; top:2%; left:1%;" >
+     <a href="#" class="names"style="width:6%; position:fixed; top:9%; left:82%;"> ADMIN </a>
+     <img src="user-2.PNG" alt="logo" style="width:6%; position:fixed; top:5.5%; left:90%;" >
+     </div>
+     </header>
+
+<body>
+
+  <div id="sidenav"> <!-- Side bar-->
+  <img class="sideimg" src="menu.png" alt="" onclick="openNav()" >
+  <div id="sideLink">
+  <a href="#"><img class="sideimg" src="home.png" alt="" > </a>
+  <a href="#"><img class="sideimg" src="search.png" alt="" > </a>
+  <a href="#"><img class="sideimg" src="add.png" alt="" > </a>
+  </div>
+  </div>
+<h1 class="EditAdmin"> Member profile</h1>
+		  <main>
+		  <br>
+<div style="border:1px solid #000 display: flex;"> <!--box div-->
+
+  <div style= "float:left;"><!--information div-->
+  <table>
+  <tr>
+    <th>Member ID</th>
+  </tr>
+  <tr>
+    <td></td><!--member ID-->
+  </tr>
+  <tr>
+    <th>first Name</th>
+    <th>last Name</th>
+  </tr>
+  <tr>
+    <td></td><!--first name-->
+    <td></td><!--last name-->
+  </tr>
+  <tr>
+    <th>National ID</th>
+    <th>Date of birth</th>
+  </tr>
+  <tr>
+    <td></td><!--National ID-->
+    <td></td><!--Date of birth-->
+  </tr>
+  <tr>
+    <th>Email</th>
+    <th>Phone number</th>
+  </tr>
+  <tr>
+    <td></td><!--Email-->
+    <td></td><!--Phone number-->
+  </tr>
+  <tr>
+    <th>Membership start date</th>
+    <th>Membership end date</th>
+  </tr>
+  <tr>
+    <td><input type="date" id="msStartDate"></td><!--Membership start date-->
+    <td><input type="date" id="msEndDate"></td><!--Membership end date-->
+  </tr>
+</table>
+</div><!--information div-->
+
+<div style= "float:right; margin-right:5%"><!--buttons div-->
+  <button type="button" class="button">Edit</button><br><br>
+  <button type="button" onclick="freezeFun()" class="button">Freeze</button><br><br>
+  <button type="button" onclick="authorizeFun()" class="button">Authorize</button><br><br>
+  <button type="button" onclick="deactivateFun()" class="button">Deactivate</button><br><br>
+
+</div><!--buttons div-->
+
+</div><!--box div-->
+       </main>
+ <footer>
+
+ </footer>
+ <script>
+ function authorizeFun(){/*authorize confirmation message*/
+   confirm("Are you sure you want to authorize access for this member?");
+ }
+ function freezeFun(){/*freeze duaration prompt مب كاملة*/
+   var fStartDate;
+   var fEndDate;
+   var duration = prompt("please select freeze duration");
+ }
+ function deactivateFun(){/*deactivate confirmation message*/
+   confirm("Are you sure you want to deactivate this member?");
+ }
+ </script>
+ </body>
+ </html>
